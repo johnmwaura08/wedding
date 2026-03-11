@@ -40,7 +40,7 @@ export default function HomePage() {
 
           <div className="animate-fade-in-up-delay-3 space-y-3 mb-14 md:mb-16">
             <p className="font-serif text-xl md:text-2xl text-charcoal tracking-[0.02em]">
-              September 19<sup className="text-[0.6em]">TH</sup>, 2026 &nbsp;at&nbsp; 2:30PM
+              September 19<sup className="text-[0.6em]">TH</sup>, 2026 &nbsp;at&nbsp; 3:00PM
             </p>
             <div className="h-px w-10 bg-border-soft mx-auto my-4" />
             <p className="text-stone-warm uppercase tracking-[0.25em] text-xs">
@@ -71,7 +71,7 @@ export default function HomePage() {
           <h2 className="font-serif text-3xl md:text-[2.75rem] text-charcoal mb-4 leading-tight">
             Event Details
           </h2>
-          <div className="decorative-divider max-w-[120px] mx-auto mb-14">
+          <div className="decorative-divider max-w-30 mx-auto mb-14">
             <span className="text-gold-muted text-xs">&#10047;</span>
           </div>
 
@@ -82,7 +82,7 @@ export default function HomePage() {
                 Ceremony
               </h3>
               <p className="text-stone-warm text-sm leading-[1.8]">
-                2:30 PM
+                3:00 PM
                 <br />
                 Topstays Private Residences
                 <br />
@@ -116,10 +116,13 @@ export default function HomePage() {
           </div>
 
           <div className="mt-20">
-            <p className="text-stone-warm text-sm mb-8 leading-relaxed">
+            <p className="text-stone-warm text-sm mb-3 leading-relaxed">
               We would be honored by your presence.
               <br />
               Kindly RSVP by August 19th, 2026.
+            </p>
+            <p className="text-stone-mid/60 text-xs italic mb-8">
+              Please arrive on time as the ceremony will begin promptly.
             </p>
             <Link href="/rsvp" className="btn-outline">
               Respond Now
