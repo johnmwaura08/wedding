@@ -1,6 +1,9 @@
 [build]
 dockerfilePath = "Dockerfile"
 
+[build.args]
+DATABASE_URL = "${{ DATABASE_URL }}"
+
 [deploy]
 healthcheckPath = "/"
 restartPolicyType = "ON_FAILURE"
