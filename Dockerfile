@@ -15,7 +15,7 @@ COPY . .
 # Generate Prisma client + push schema to DB
 ARG DATABASE_URL
 RUN npx prisma generate
-RUN npx prisma db push --skip-generate
+RUN npx prisma db push
 
 # Build Next.js
 RUN npm run build
